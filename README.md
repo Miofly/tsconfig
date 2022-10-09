@@ -6,7 +6,7 @@ TSConfigs for Vue projects to extend.
 
 Requires TypeScript >= 4.5.
 
-Install:
+## Install:
 
 ```sh
 npm add -D @wfly/tsconfig

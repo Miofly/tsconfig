@@ -2,11 +2,11 @@
 
 **中文** | [English](./README.md)
 
-TSConfigs for Vue projects to extend.
+`Vue` 项目的 `tsconfig` 基础配置。
 
-Requires TypeScript >= 4.5.
+要求 `TypeScript` 版本 `>= 4.5`
 
-Install:
+## 安装
 
 ```sh
 npm add -D @wfly/tsconfig
@@ -14,21 +14,19 @@ npm add -D @wfly/tsconfig
 pnpm add -D @wfly/tsconfig
 ```
 
-Add one of the available configurations to your `tsconfig.json`:
-
-The base configuration (runtime-agnostic):
+基本配置
 
 ```json
 "extends": "@wfly/tsconfig/tsconfig.json"
 ```
 
-Configuration for Browser environment:
+浏览器环境的配置
 
 ```json
 "extends": "@wfly/tsconfig/tsconfig.web.json"
 ```
 
-Configuration for Node environment:
+`Node` 环境的配置
 
 ```json
 "extends": "@wfly/tsconfig/tsconfig.node.json"
