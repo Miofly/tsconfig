@@ -1,6 +1,6 @@
 {
-  "name": "wfly_tsconfig",
-  "version": "1.0.0",
+  "name": "@wfly/tsconfig",
+  "version": "0.0.6",
   "description": "A base TSConfig for working with Vue.js",
   "main": "tsconfig.json",
   "scripts": {
@@ -10,7 +10,20 @@
     "vue",
     "tsconfig"
   ],
+  "files": [
+    "*"
+  ],
   "author": "Wfly <953212389@qq.com>",
+  "homepage": "https://github.com/Miofly/tsconfig#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Miofly/tsconfig"
+  },
+  "bugs": {
+    "email": "953212389@qq.com",
+    "url": "https://github.com/Miofly/tsconfig/issues"
+  },
+  "license": "MIT",
   "peerDependencies": {
     "@types/node": "*"
   },
