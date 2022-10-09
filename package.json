@@ -1,0 +1,26 @@
+{
+  "name": "wfly_tsconfig",
+  "version": "1.0.0",
+  "description": "A base TSConfig for working with Vue.js",
+  "main": "tsconfig.json",
+  "scripts": {
+    "pub": "npm version patch && npm publish"
+  },
+  "keywords": [
+    "vue",
+    "tsconfig"
+  ],
+  "author": "Wfly <953212389@qq.com>",
+  "peerDependencies": {
+    "@types/node": "*"
+  },
+  "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
