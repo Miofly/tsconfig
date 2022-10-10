@@ -8,7 +8,7 @@
     "strict": true,
     "isolatedModules": true,
     "preserveValueImports": false,
-//    "importsNotUsedAsValues": "error",
+    "importsNotUsedAsValues": "error",
     "target": "ESNext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

@@ -1,7 +1,8 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "noImplicitAny": false,
     "lib": ["ES2016", "DOM", "DOM.Iterable"],
-    "types": []
+    "types": ["unplugin-vue-macros/macros-global"]
   }
 }
