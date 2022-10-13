@@ -8,7 +8,7 @@
     "strict": true,
     "isolatedModules": true,
     "preserveValueImports": false,
-//    "importsNotUsedAsValues": "preserve",
+    "importsNotUsedAsValues": "preserve",
     "target": "ES2020",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
