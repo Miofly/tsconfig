@@ -1,6 +1,6 @@
 {
-  "name": "@wfly/tsconfig",
-  "version": "0.0.11",
+  "name": "@vmicro/tsconfig",
+  "version": "0.0.0",
   "description": "A base TSConfig for working with Vue.js",
   "main": "tsconfig.json",
   "scripts": {
