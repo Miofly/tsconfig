@@ -1,4 +1,4 @@
-# `@wfly/tsconfig`
+# `@vmicro/tsconfig`
 
 **中文** | [English](./README.md)
 
@@ -9,25 +9,25 @@
 ## 安装
 
 ```sh
-npm add -D @wfly/tsconfig
+npm add -D @vmicro/tsconfig
 # or
-pnpm add -D @wfly/tsconfig
+pnpm add -D @vmicro/tsconfig
 ```
 
 基本配置
 
 ```json
-"extends": "@wfly/tsconfig/tsconfig.json"
+"extends": "@vmicro/tsconfig/tsconfig.json"
 ```
 
 浏览器环境的配置
 
 ```json
-"extends": "@wfly/tsconfig/tsconfig.web.json"
+"extends": "@vmicro/tsconfig/tsconfig.web.json"
 ```
 
 `Node` 环境的配置
 
 ```json
-"extends": "@wfly/tsconfig/tsconfig.node.json"
+"extends": "@vmicro/tsconfig/tsconfig.node.json"
 ```
