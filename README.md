@@ -1,4 +1,4 @@
-# `@vmicro/tsconfig`
+# `@vri/tsconfig`
 
 **English** | [中文](./README.zh_CN.md)
 
@@ -9,9 +9,9 @@ Requires TypeScript >= 4.5.
 ## Install:
 
 ```sh
-npm add -D @vmicro/tsconfig
+npm add -D @vri/tsconfig
 # or
-pnpm add -D @vmicro/tsconfig
+pnpm add -D @vri/tsconfig
 ```
 
 Add one of the available configurations to your `tsconfig.json`:
@@ -19,17 +19,17 @@ Add one of the available configurations to your `tsconfig.json`:
 The base configuration (runtime-agnostic):
 
 ```json
-"extends": "@vmicro/tsconfig/tsconfig.json"
+"extends": "@vri/tsconfig/tsconfig.json"
 ```
 
 Configuration for Browser environment:
 
 ```json
-"extends": "@vmicro/tsconfig/tsconfig.web.json"
+"extends": "@vri/tsconfig/tsconfig.web.json"
 ```
 
 Configuration for Node environment:
 
 ```json
-"extends": "@vmicro/tsconfig/tsconfig.node.json"
+"extends": "@vri/tsconfig/tsconfig.node.json"
 ```
