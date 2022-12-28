@@ -4,7 +4,7 @@
   "description": "A base TSConfig for working with Vue.js",
   "main": "tsconfig.json",
   "scripts": {
-    "pub": "npm version patch && npm publish"
+    "pub": "pnpm version patch && pnpm publish"
   },
   "keywords": [
     "vue",
